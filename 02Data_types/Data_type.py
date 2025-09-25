@@ -89,3 +89,8 @@ print(type("hola"))
 print(type(537654))
 print(type(653.867))
 print(type([1,2,a,b,c,"sam"]))
+
+
+# concatination - 
+num = "100"
+print(int(num) + 5)

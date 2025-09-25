@@ -25,3 +25,20 @@ print(s.split())        # ['hello', 'python']
 print("-".join(["hello", "python"]))  # hello-python
 print(s.find("python"))  # 6 → index of substring
 print(s.count("o"))     # 2 → count occurrences
+
+
+# PRACTICE
+
+str = "   Hello World      "
+
+print(str.split())  #String -> List
+print(str.replace("Hello", "Samiksha"))   #replace, Hello -> Samiksha
+print(str.find("World"))  #find "World"
+print(str.strip())    #remove spaces 
+
+
+str2 = ["Hello", "World"]   #List -> String
+print(" ".join(str2))
+
+
+

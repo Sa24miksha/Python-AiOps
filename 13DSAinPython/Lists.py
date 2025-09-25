@@ -68,3 +68,14 @@ print(min(li))
 
 
 
+# Problem: What if you want the index of 2nd occurrence?
+
+# Python doesn’t have built-in method for that, you can do:
+
+# li = [1,2,3,2,3,2]
+# first = li.index(2)
+# second = li.index(2, first + 1)
+# print(second)   # 3
+
+# list.index(value, start_index) → searches from start_index onwards.
+
