@@ -14,7 +14,7 @@ def timer(func):
         return result
     return wrapper
 
-@timer
+@timer   #--> decorator 
 def example_function(n):
     time.sleep(n)
 
