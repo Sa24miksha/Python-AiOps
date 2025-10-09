@@ -14,7 +14,7 @@ def cache(fun):
         return result
     return wrapper
 
-@cache
+@cache  #--> decorator 
 def long_running_function(a,b):
     time.sleep(4)
     return a+b
