@@ -17,7 +17,7 @@ print("updated: " , tea_varity)
 
 #surprise
 #tea_varity[1:2] = "Lemon"
-#print(tea_varity) #['Green', 'L', 'e', 'm', 'o', 'n', 'Oolong', 'Herbal'] the value will be inserted as an array 
+#print(tea_varity) #['Green', 'L', 'e', 'm', 'o', 'n', 'Oolong', 'White'] the value will be inserted as an array 
 # to fix this we will pass the value of as an array as follows 
 
 
@@ -50,7 +50,7 @@ print(tea_varity)
 print("pop:")
 tea_varity.pop() #when used in terminal, it omit the output 
 
-
+print("Printing with copies- ")
 tea_varity_copy = tea_varity.copy()
 tea_varity_copy.append("Applays")
 print(tea_varity)
